@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libLIB_Server.so -o libLIB_Server.so CMakeFiles/LIB_Server.dir/src/Server.cpp.o 

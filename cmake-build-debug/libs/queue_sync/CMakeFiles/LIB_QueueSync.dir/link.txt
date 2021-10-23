@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libLIB_QueueSync.so -o libLIB_QueueSync.so CMakeFiles/LIB_QueueSync.dir/src/queue_sync.cpp.o 

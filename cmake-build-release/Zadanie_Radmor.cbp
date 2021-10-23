@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Zadanie_Radmor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libs\;CMake Files\libs\random_engine\;CMake Files\libs\queue_sync\;CMake Files\libs\thread_pool\;CMake Files\app\;CMake Files\app\allocator\;CMake Files\app\client\;CMake Files\app\server\;CMake Files\app\watchdog\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/libs/random_engine/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/libs/random_engine/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LIB_RandomEngine">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/random_engine/libLIB_RandomEngine.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/random_engine"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/libs/random_engine/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/random_engine/Makefile&quot;  VERBOSE=1 LIB_RandomEngine"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/random_engine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/random_engine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/random_engine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LIB_RandomEngine/fast">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/random_engine/libLIB_RandomEngine.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/random_engine"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/libs/random_engine/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/random_engine/Makefile&quot;  VERBOSE=1 LIB_RandomEngine/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/random_engine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/random_engine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/random_engine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LIB_ThreadPool">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/thread_pool/libLIB_ThreadPool.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/thread_pool"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/libs/thread_pool/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/thread_pool/Makefile&quot;  VERBOSE=1 LIB_ThreadPool"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/thread_pool/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/thread_pool/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/thread_pool/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LIB_ThreadPool/fast">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/thread_pool/libLIB_ThreadPool.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/thread_pool"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/libs/thread_pool/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/thread_pool/Makefile&quot;  VERBOSE=1 LIB_ThreadPool/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/thread_pool/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/thread_pool/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/libs/thread_pool/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LIB_Allocator">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/allocator/libLIB_Allocator.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/allocator"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/app/allocator/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/allocator/Makefile&quot;  VERBOSE=1 LIB_Allocator"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/allocator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/allocator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/allocator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LIB_Allocator/fast">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/allocator/libLIB_Allocator.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/allocator"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/app/allocator/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/allocator/Makefile&quot;  VERBOSE=1 LIB_Allocator/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/allocator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/allocator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/allocator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LIB_Client">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/client/libLIB_Client.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/client"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/app/client/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/client/Makefile&quot;  VERBOSE=1 LIB_Client"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LIB_Client/fast">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/client/libLIB_Client.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/client"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/app/client/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/client/Makefile&quot;  VERBOSE=1 LIB_Client/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LIB_Server">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/server/libLIB_Server.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/server"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/app/server/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/server/Makefile&quot;  VERBOSE=1 LIB_Server"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LIB_Server/fast">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/server/libLIB_Server.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/server"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/app/server/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/server/Makefile&quot;  VERBOSE=1 LIB_Server/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LIB_Watchdog">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/watchdog/libLIB_Watchdog.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/watchdog"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/app/watchdog/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/watchdog/Makefile&quot;  VERBOSE=1 LIB_Watchdog"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/watchdog/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/watchdog/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/watchdog/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LIB_Watchdog/fast">
+				<Option output="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/watchdog/libLIB_Watchdog.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/watchdog"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/app/watchdog/inc"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/watchdog/Makefile&quot;  VERBOSE=1 LIB_Watchdog/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/watchdog/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/watchdog/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/dev/workspace_qt/zadanie_radmor/cmake-build-release/app/watchdog/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/app/allocator/src/allocator.cpp">
+			<Option target="LIB_Allocator"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/app/client/src/Client.cpp">
+			<Option target="LIB_Client"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/app/server/src/Server.cpp">
+			<Option target="LIB_Server"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/app/watchdog/src/watchdog.cpp">
+			<Option target="LIB_Watchdog"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/libs/random_engine/src/random_engine.cpp">
+			<Option target="LIB_RandomEngine"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/libs/thread_pool/src/thread_pool.cpp">
+			<Option target="LIB_ThreadPool"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/libs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/libs/random_engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\random_engine\"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/libs/queue_sync/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\queue_sync\"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/libs/thread_pool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\thread_pool\"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\app\"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/app/allocator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\app\allocator\"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/app/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\app\client\"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/app/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\app\server\"/>
+		</Unit>
+		<Unit filename="/home/dev/workspace_qt/zadanie_radmor/app/watchdog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\app\watchdog\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

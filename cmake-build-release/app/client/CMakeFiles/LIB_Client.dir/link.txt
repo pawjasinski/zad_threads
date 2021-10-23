@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libLIB_Client.so -o libLIB_Client.so CMakeFiles/LIB_Client.dir/src/Client.cpp.o 

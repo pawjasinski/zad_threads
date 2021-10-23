@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/main.dir/main.cpp.o -o main  -Wl,-rpath,/home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/libs/random_engine libs/random_engine/libLIB_RandomEngine.so 
