@@ -1,22 +1,22 @@
 Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dc38f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc38f.dir/build.make CMakeFiles/cmTC_dc38f.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_42bb5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_42bb5.dir/build.make CMakeFiles/cmTC_42bb5.dir/build
 gmake[1]: Entering directory '/home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dc38f.dir/src.cxx.o
-/usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++14 -o CMakeFiles/cmTC_dc38f.dir/src.cxx.o -c /home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_dc38f
-/home/dev/clion-2021.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc38f.dir/link.txt --verbose=1
-/usr/bin/c++ CMakeFiles/cmTC_dc38f.dir/src.cxx.o -o cmTC_dc38f 
-/usr/bin/ld: CMakeFiles/cmTC_dc38f.dir/src.cxx.o: in function `main':
+Building CXX object CMakeFiles/cmTC_42bb5.dir/src.cxx.o
+/usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++14 -o CMakeFiles/cmTC_42bb5.dir/src.cxx.o -c /home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_42bb5
+/home/dev/clion-2021.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42bb5.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_42bb5.dir/src.cxx.o -o cmTC_42bb5 
+/usr/bin/ld: CMakeFiles/cmTC_42bb5.dir/src.cxx.o: in function `main':
 src.cxx:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.cxx:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.cxx:(.text+0x5e): undefined reference to `pthread_cancel'
 /usr/bin/ld: src.cxx:(.text+0x6f): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_dc38f.dir/build.make:99: cmTC_dc38f] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_42bb5.dir/build.make:99: cmTC_42bb5] Error 1
 gmake[1]: Leaving directory '/home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_dc38f/fast] Error 2
+gmake: *** [Makefile:127: cmTC_42bb5/fast] Error 2
 
 
 Source file was:
@@ -43,18 +43,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3de9c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3de9c.dir/build.make CMakeFiles/cmTC_3de9c.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d358a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d358a.dir/build.make CMakeFiles/cmTC_d358a.dir/build
 gmake[1]: Entering directory '/home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3de9c.dir/CheckFunctionExists.cxx.o
-/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu++14 -o CMakeFiles/cmTC_3de9c.dir/CheckFunctionExists.cxx.o -c /home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
-Linking CXX executable cmTC_3de9c
-/home/dev/clion-2021.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3de9c.dir/link.txt --verbose=1
-/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_3de9c.dir/CheckFunctionExists.cxx.o -o cmTC_3de9c  -lpthreads 
+Building CXX object CMakeFiles/cmTC_d358a.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu++14 -o CMakeFiles/cmTC_d358a.dir/CheckFunctionExists.cxx.o -c /home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_d358a
+/home/dev/clion-2021.2.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d358a.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_d358a.dir/CheckFunctionExists.cxx.o -o cmTC_d358a  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_3de9c.dir/build.make:99: cmTC_3de9c] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_d358a.dir/build.make:99: cmTC_d358a] Error 1
 gmake[1]: Leaving directory '/home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_3de9c/fast] Error 2
+gmake: *** [Makefile:127: cmTC_d358a/fast] Error 2
 
 
 

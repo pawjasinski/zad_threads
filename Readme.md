@@ -6,13 +6,14 @@ Zadanie : zaimplementować
 : pula wątków - przy pomocy kolejki zsynchronizowanej
 
 zadanie:
-* W main utwórz 7 wątków
+* utwórz 7 wątków
 * T1 T2 i T3 będą wątkami-klientami
 * T4 i T5 będzie wątkiem serwerem dla klientów
 * T6 będzie wątkiem alokującym pamięć dla serwerów
 * T7 będzie wątkiem typu watchdog
 
-Muteksy lub semafory:
+Wskazówka(można zaimplementować w dowolny, inny sposób)
+Muteksy lub semafory :
 Jeden wspólny dla T1-5 (klienci dają zadania serwerowi) a drugi wspólny dla T4-6
 (serwery dają zadanie dla alokatora pamięci)
 

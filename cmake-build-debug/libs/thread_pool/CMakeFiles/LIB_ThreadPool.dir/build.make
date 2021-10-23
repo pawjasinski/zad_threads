@@ -88,6 +88,7 @@ LIB_ThreadPool_EXTERNAL_OBJECTS =
 
 libs/thread_pool/libLIB_ThreadPool.so: libs/thread_pool/CMakeFiles/LIB_ThreadPool.dir/src/thread_pool.cpp.o
 libs/thread_pool/libLIB_ThreadPool.so: libs/thread_pool/CMakeFiles/LIB_ThreadPool.dir/build.make
+libs/thread_pool/libLIB_ThreadPool.so: libs/queue_sync/libLIB_QueueSync.so
 libs/thread_pool/libLIB_ThreadPool.so: libs/thread_pool/CMakeFiles/LIB_ThreadPool.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libLIB_ThreadPool.so"
 	cd /home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/libs/thread_pool && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LIB_ThreadPool.dir/link.txt --verbose=$(VERBOSE)

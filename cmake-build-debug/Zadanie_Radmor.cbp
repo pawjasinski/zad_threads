@@ -183,6 +183,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/dev/workspace_qt/zadanie_radmor/libs/thread_pool/inc"/>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/libs/queue_sync/inc"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -206,6 +207,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/dev/workspace_qt/zadanie_radmor/libs/thread_pool/inc"/>
+					<Add directory="/home/dev/workspace_qt/zadanie_radmor/libs/queue_sync/inc"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>

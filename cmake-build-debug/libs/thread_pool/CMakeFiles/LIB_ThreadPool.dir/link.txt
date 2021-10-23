@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libLIB_ThreadPool.so -o libLIB_ThreadPool.so CMakeFiles/LIB_ThreadPool.dir/src/thread_pool.cpp.o 
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libLIB_ThreadPool.so -o libLIB_ThreadPool.so CMakeFiles/LIB_ThreadPool.dir/src/thread_pool.cpp.o  -Wl,-rpath,/home/dev/workspace_qt/zadanie_radmor/cmake-build-debug/libs/queue_sync ../queue_sync/libLIB_QueueSync.so -lpthread 

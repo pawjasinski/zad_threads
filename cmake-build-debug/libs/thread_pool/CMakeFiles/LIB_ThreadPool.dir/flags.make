@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DLIB_ThreadPool_EXPORTS
 
-CXX_INCLUDES = -I/home/dev/workspace_qt/zadanie_radmor/libs/thread_pool/inc
+CXX_INCLUDES = -I/home/dev/workspace_qt/zadanie_radmor/libs/thread_pool/inc -I/home/dev/workspace_qt/zadanie_radmor/libs/queue_sync/inc
 
 CXX_FLAGS = -g -fPIC -std=gnu++14
 
