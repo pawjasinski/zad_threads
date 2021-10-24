@@ -8,6 +8,7 @@
 
 namespace pawelo
 {
+    using namespace std::chrono_literals;
     template<class T>
     class QueueSynch
     {

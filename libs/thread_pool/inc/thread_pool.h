@@ -8,7 +8,7 @@
 #include "queue_sync.h"
 namespace pawelo
 {
-    using Task std::std::function<void()>;
+    using Task = std::function<void()>;
     class ThreadPool
     {
     public:
@@ -36,10 +36,10 @@ namespace pawelo
         template<class Callable>
         void submit(Callable&& callable)
         {
-            auto result = decltype(callable());
+            using result = decltype(callable());
             //std::packaged_task<std::shared_ptr<result()>> p = std::make_shared<result()>(std::forward<Callable>(callable));
-            auto pt = std::make_shared<result()>(std::forward<Callable>(callable));
-
+            auto pt = std::make_shared<std::packaged_task<result()>>(std::forward<Callable>(callable));
+            tasks_.push([pt] {(*pt)();});
         }
         void run()
         {
